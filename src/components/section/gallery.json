@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_galleries",
+  "info": {
+    "displayName": "section_gallery",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image_gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}
